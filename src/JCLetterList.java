@@ -1,30 +1,32 @@
 import gui.mainForm;
+
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Random;
+import java.util.stream.Collectors;
 
 /**
  * Created by jhollinshead on 12/12/16.
  */
 public class JCLetterList {
 
-    private static final HashSet<JCLetter> masterListOfLetters = new HashSet<>();
-    private HashSet<JCLetter> listOfLetters = new HashSet<>();
+    private static final List<JCLetter> masterListOfLetters = new ArrayList<>();
+    private List<JCLetter> listOfLetters = new ArrayList<>();
 
-    public JCLetterList(HashSet<JCLetter> listOfLetters) {
-
-        for(JCLetter letter : listOfLetters) {
-            if(!letter.isSelected())
-                listOfLetters.remove(letter);
-        }
-
-        this.listOfLetters = listOfLetters;
+    public JCLetterList(List<JCLetter> listOfLetters) {
+        this.listOfLetters.addAll(listOfLetters.stream().filter(JCLetter::isSelected).collect(Collectors.toList()));
     }
 
-    public void removeRandomLetters(int number) {
-        if(listOfLetters.size() > 0) {
-            if (number > listOfLetters.size())
-                listOfLetters.clear();
-            else
-                listOfLetters.remove(listOfLetters.a)
+    public void setNumLetters(int number) {
+        if (number <= 0)
+            listOfLetters.clear();
+        else {
+            Random rand = new Random();
+            while (listOfLetters.size() > number) {
+                int n = rand.nextInt(listOfLetters.size());
+                listOfLetters.remove(n);
+            }
         }
     }
 

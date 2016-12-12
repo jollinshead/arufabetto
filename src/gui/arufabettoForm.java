@@ -6,7 +6,7 @@ import javax.swing.*;
  * Created by jholl on 11/12/2016.
  */
 public class arufabettoForm {
-    private JPanel mainPanel;
+    private JPanel pnlMain;
     private JCheckBox cbMA;
     private JCheckBox cbN;
     private JCheckBox cbWA;

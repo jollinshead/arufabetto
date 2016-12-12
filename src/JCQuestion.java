@@ -16,7 +16,6 @@ public class JCQuestion {
         this.answerLanguage = answerLanguage;
         this.type = type;
         this.lettersToUse = lettersToUse;
-
-
+        this.lettersToUse.setNumLetters(maxNumLetters);
     }
 }
