@@ -1,4 +1,4 @@
-package main.java;
+package gui;
 
 import javax.swing.*;
 
@@ -10,7 +10,14 @@ public class mainForm {
     private JRadioButton rbSpeaking;
     private JRadioButton rbWriting;
     private JRadioButton rbListening;
-    public JPanel pnlMain;
+    private JPanel pnlMain;
+    private arufabettoForm afAlphabet;
 
+    public arufabettoForm getAfAlphabet() {
+        return afAlphabet;
+    }
 
+    public JPanel getPnlMain() {
+        return pnlMain;
+    }
 }
