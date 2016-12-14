@@ -6,28 +6,30 @@ import java.io.File;
  */
 public final class JCLetter {
 
-    private final String name;
-    private final int hiraganaCode;
+    private final String english;
+    private final String hiragana;
+    private final String katakana;
     private final JCheckBox checkBox;
     private final String audioFileName;
 
-    public JCLetter(String name, int hiraganaCode, JCheckBox checkBox, String audioFileName) {
-        this.name = name;
-        this.hiraganaCode = hiraganaCode;
+    public JCLetter(String english, String hiragana, String katakana, JCheckBox checkBox, String audioFileName) {
+        this.english = english;
+        this.hiragana = hiragana;
+        this.katakana = katakana;
         this.checkBox = checkBox;
         this.audioFileName = audioFileName;
     }
 
-    public String getName() {
-        return name;
+    public String getEnglish() {
+        return english;
     }
 
-    public int getHiragana() {
-        return hiraganaCode;
+    public String getHiragana() {
+        return hiragana;
     }
 
-    public int getKatakana() {
-        return hiraganaCode + 0x60;
+    public String getKatakana() {
+        return katakana;
     }
 
     public boolean isSelected() {
@@ -35,7 +37,7 @@ public final class JCLetter {
     }
 
     public void playAudio() {
-        JCAudio.play(new File(this.audioFileName));
+        JCAudio.play(this.audioFileName);
     }
 
     @Override
@@ -45,12 +47,12 @@ public final class JCLetter {
 
         JCLetter jcLetter = (JCLetter) o;
 
-        return name.equals(jcLetter.name);
+        return english.equals(jcLetter.english);
 
     }
 
     @Override
     public int hashCode() {
-        return name.hashCode();
+        return english.hashCode();
     }
 }

@@ -1,4 +1,5 @@
 import java.io.File;
+import java.net.URL;
 import javax.sound.sampled.*;
 
 /**
@@ -6,13 +7,16 @@ import javax.sound.sampled.*;
  */
 public class JCAudio {
 
-    public static void play(File file)
+    public static void play(String fileName)
     {
-        if(!file.exists()) {
-            System.out.printf("Error: '%s' does not exist.", file.getAbsolutePath());
+        URL path = ClassLoader.getSystemResource("wav/" + fileName);
+        if(path==null) {
+            System.out.printf("Error: '%s' does not exist.", fileName);
+            return;
         }
         else {
             try {
+                File file = new File(path.toURI());
                 final Clip clip = (Clip) AudioSystem.getLine(new Line.Info(Clip.class));
 
                 clip.addLineListener(event -> {

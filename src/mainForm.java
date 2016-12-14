@@ -1,5 +1,3 @@
-package gui;
-
 import javax.swing.*;
 
 /**
@@ -15,5 +13,9 @@ public class mainForm {
 
     public JPanel getPnlMain() {
         return pnlMain;
+    }
+
+    public mainForm() {
+        JCLetterList.populateMasterList(this);
     }
 }
