@@ -1,4 +1,7 @@
 import javax.swing.*;
+import java.awt.*;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
 
 /**
  * Created by jhollinshead on 12/13/16.
@@ -15,7 +18,7 @@ public class questionForm {
     private JTextArea taAnswerText2;
     private JCheckBox cbbQuestion;
 
-    public questionForm(JCQuestion question) {
+    public questionForm(JCQuestion question, boolean hideQuestion) {
         this.question = question;
 
         this.btnPlay.addActionListener(e -> question.playAudio());
@@ -24,6 +27,11 @@ public class questionForm {
 
         JScrollPane pictureScrollPane = new JScrollPane(pnlMain);
         pictureScrollPane.setViewportView(pnlMain);
+
+        if(hideQuestion) {
+            this.cbbQuestion.setSelected(false);
+            toggleQuestion();
+        }
     }
 
     private void toggleAnswer () {
