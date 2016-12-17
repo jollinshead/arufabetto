@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="arufabettoForm">
-  <grid id="27dc6" binding="pnlMain" layout-manager="GridLayoutManager" row-count="7" column-count="18" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="pnlMain" layout-manager="GridLayoutManager" row-count="7" column-count="19" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="672" height="400"/>
+      <xy x="20" y="20" width="756" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
       <component id="6c56c" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="k-"/>
@@ -18,7 +18,7 @@
       </component>
       <component id="77df9" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value=""/>
@@ -26,7 +26,7 @@
       </component>
       <component id="f1aeb" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="w-"/>
@@ -34,7 +34,7 @@
       </component>
       <component id="b0595" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="r-"/>
@@ -42,7 +42,7 @@
       </component>
       <component id="a712e" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="s-"/>
@@ -50,7 +50,7 @@
       </component>
       <component id="62cff" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="t-"/>
@@ -58,7 +58,7 @@
       </component>
       <component id="402c7" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="y-"/>
@@ -66,7 +66,7 @@
       </component>
       <component id="85ff3" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="m-"/>
@@ -74,7 +74,7 @@
       </component>
       <component id="273f1" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="h-"/>
@@ -82,66 +82,13 @@
       </component>
       <component id="fb2f9" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="n-"/>
         </properties>
       </component>
       <component id="1ebc3" class="javax.swing.JCheckBox" binding="cbMA">
-        <constraints>
-          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="ece0d" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="n"/>
-        </properties>
-      </component>
-      <component id="fa19a" class="javax.swing.JCheckBox" binding="cbN">
-        <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="3b034" class="javax.swing.JCheckBox" binding="cbWA">
-        <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="f02ba" class="javax.swing.JCheckBox" binding="cbRA">
-        <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="faf" class="javax.swing.JCheckBox" binding="cbYA">
-        <constraints>
-          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="8f50b" class="javax.swing.JCheckBox" binding="cbHA">
         <constraints>
           <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -150,7 +97,51 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="42825" class="javax.swing.JCheckBox" binding="cbNA">
+      <component id="ece0d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="n"/>
+        </properties>
+      </component>
+      <component id="fa19a" class="javax.swing.JCheckBox" binding="cbN">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3b034" class="javax.swing.JCheckBox" binding="cbWA">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f02ba" class="javax.swing.JCheckBox" binding="cbRA">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="faf" class="javax.swing.JCheckBox" binding="cbYA">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8f50b" class="javax.swing.JCheckBox" binding="cbHA">
         <constraints>
           <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -159,7 +150,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="c7ac0" class="javax.swing.JCheckBox" binding="cbTA">
+      <component id="42825" class="javax.swing.JCheckBox" binding="cbNA">
         <constraints>
           <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -168,7 +159,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="a71b3" class="javax.swing.JCheckBox" binding="cbSA">
+      <component id="c7ac0" class="javax.swing.JCheckBox" binding="cbTA">
         <constraints>
           <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -177,7 +168,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="1bfbe" class="javax.swing.JCheckBox" binding="cbKA">
+      <component id="a71b3" class="javax.swing.JCheckBox" binding="cbSA">
         <constraints>
           <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -186,405 +177,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="8d5ff" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="0" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="428c" class="javax.swing.JCheckBox" binding="cbA">
-        <constraints>
-          <grid row="1" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="ee5e5" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="1" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="-a"/>
-        </properties>
-      </component>
-      <component id="53c7a" class="javax.swing.JCheckBox" binding="cbMO">
-        <constraints>
-          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="87ac5" class="javax.swing.JCheckBox" binding="cbWO">
-        <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="c981d" class="javax.swing.JCheckBox" binding="cbRO">
-        <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="34d04" class="javax.swing.JCheckBox" binding="cbYO">
-        <constraints>
-          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="fbedf" class="javax.swing.JCheckBox" binding="cbHO">
-        <constraints>
-          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="98714" class="javax.swing.JCheckBox" binding="cbNO">
-        <constraints>
-          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="1fd1b" class="javax.swing.JCheckBox" binding="cbTO">
-        <constraints>
-          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="5bd8b" class="javax.swing.JCheckBox" binding="cbSO">
-        <constraints>
-          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="e994d" class="javax.swing.JCheckBox" binding="cbKO">
-        <constraints>
-          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="bad76" class="javax.swing.JCheckBox" binding="cbO">
-        <constraints>
-          <grid row="5" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="ff0b6" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="5" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="-o"/>
-        </properties>
-      </component>
-      <component id="6a464" class="javax.swing.JCheckBox" binding="cbMI">
-        <constraints>
-          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="f968e" class="javax.swing.JCheckBox" binding="cbWI">
-        <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="d5b0b" class="javax.swing.JCheckBox" binding="cbRI">
-        <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="a10c7" class="javax.swing.JCheckBox" binding="cbHI">
-        <constraints>
-          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="7c34a" class="javax.swing.JCheckBox" binding="cbNI">
-        <constraints>
-          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="ad930" class="javax.swing.JCheckBox" binding="cbTI">
-        <constraints>
-          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="67927" class="javax.swing.JCheckBox" binding="cbSI">
-        <constraints>
-          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="13f0f" class="javax.swing.JCheckBox" binding="cbKI">
-        <constraints>
-          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="cbd50" class="javax.swing.JCheckBox" binding="cbI">
-        <constraints>
-          <grid row="2" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="9f8d8" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="2" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="-i"/>
-        </properties>
-      </component>
-      <component id="71234" class="javax.swing.JCheckBox" binding="cbMU">
-        <constraints>
-          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="d1b" class="javax.swing.JCheckBox" binding="cbRU">
-        <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="46260" class="javax.swing.JCheckBox" binding="cbYU">
-        <constraints>
-          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="6e07b" class="javax.swing.JCheckBox" binding="cbHU">
-        <constraints>
-          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="31992" class="javax.swing.JCheckBox" binding="cbNU">
-        <constraints>
-          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="b466b" class="javax.swing.JCheckBox" binding="cbTU">
-        <constraints>
-          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="f8858" class="javax.swing.JCheckBox" binding="cbSU">
-        <constraints>
-          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="22952" class="javax.swing.JCheckBox" binding="cbKU">
-        <constraints>
-          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="f5e1b" class="javax.swing.JCheckBox" binding="cbU">
-        <constraints>
-          <grid row="3" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="fdbee" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="3" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="-u"/>
-        </properties>
-      </component>
-      <component id="82324" class="javax.swing.JCheckBox" binding="cbME">
-        <constraints>
-          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="5dddf" class="javax.swing.JCheckBox" binding="cbWE">
-        <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="2b845" class="javax.swing.JCheckBox" binding="cbRE">
-        <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="50b5f" class="javax.swing.JCheckBox" binding="cbHE">
-        <constraints>
-          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="b2bc7" class="javax.swing.JCheckBox" binding="cbNE">
-        <constraints>
-          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="73ff8" class="javax.swing.JCheckBox" binding="cbTE">
-        <constraints>
-          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="57d61" class="javax.swing.JCheckBox" binding="cbSE">
-        <constraints>
-          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="baef1" class="javax.swing.JCheckBox" binding="cbKE">
-        <constraints>
-          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="6d87a" class="javax.swing.JCheckBox" binding="cbE">
-        <constraints>
-          <grid row="4" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <selected value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="66b8f" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="4" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="-e"/>
-        </properties>
-      </component>
-      <component id="d2844" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="g-"/>
-        </properties>
-      </component>
-      <component id="eeaf3" class="javax.swing.JCheckBox" binding="cbGA">
+      <component id="1bfbe" class="javax.swing.JCheckBox" binding="cbKA">
         <constraints>
           <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -593,7 +186,104 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="4ffaa" class="javax.swing.JCheckBox" binding="cbGO">
+      <component id="8d5ff" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="428c" class="javax.swing.JCheckBox" binding="cbA">
+        <constraints>
+          <grid row="1" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ee5e5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="-a"/>
+        </properties>
+      </component>
+      <component id="53c7a" class="javax.swing.JCheckBox" binding="cbMO">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="87ac5" class="javax.swing.JCheckBox" binding="cbWO">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c981d" class="javax.swing.JCheckBox" binding="cbRO">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="34d04" class="javax.swing.JCheckBox" binding="cbYO">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fbedf" class="javax.swing.JCheckBox" binding="cbHO">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="98714" class="javax.swing.JCheckBox" binding="cbNO">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1fd1b" class="javax.swing.JCheckBox" binding="cbTO">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5bd8b" class="javax.swing.JCheckBox" binding="cbSO">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e994d" class="javax.swing.JCheckBox" binding="cbKO">
         <constraints>
           <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -602,7 +292,87 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="14250" class="javax.swing.JCheckBox" binding="cbGI">
+      <component id="bad76" class="javax.swing.JCheckBox" binding="cbO">
+        <constraints>
+          <grid row="5" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ff0b6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="-o"/>
+        </properties>
+      </component>
+      <component id="6a464" class="javax.swing.JCheckBox" binding="cbMI">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f968e" class="javax.swing.JCheckBox" binding="cbWI">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d5b0b" class="javax.swing.JCheckBox" binding="cbRI">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a10c7" class="javax.swing.JCheckBox" binding="cbHI">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7c34a" class="javax.swing.JCheckBox" binding="cbNI">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ad930" class="javax.swing.JCheckBox" binding="cbTI">
+        <constraints>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="67927" class="javax.swing.JCheckBox" binding="cbSI">
+        <constraints>
+          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="13f0f" class="javax.swing.JCheckBox" binding="cbKI">
         <constraints>
           <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -611,7 +381,87 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="c3556" class="javax.swing.JCheckBox" binding="cbGU">
+      <component id="cbd50" class="javax.swing.JCheckBox" binding="cbI">
+        <constraints>
+          <grid row="2" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9f8d8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="-i"/>
+        </properties>
+      </component>
+      <component id="71234" class="javax.swing.JCheckBox" binding="cbMU">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d1b" class="javax.swing.JCheckBox" binding="cbRU">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="46260" class="javax.swing.JCheckBox" binding="cbYU">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6e07b" class="javax.swing.JCheckBox" binding="cbHU">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="31992" class="javax.swing.JCheckBox" binding="cbNU">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b466b" class="javax.swing.JCheckBox" binding="cbTU">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f8858" class="javax.swing.JCheckBox" binding="cbSU">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="22952" class="javax.swing.JCheckBox" binding="cbKU">
         <constraints>
           <grid row="3" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -620,7 +470,87 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="41b4f" class="javax.swing.JCheckBox" binding="cbGE">
+      <component id="f5e1b" class="javax.swing.JCheckBox" binding="cbU">
+        <constraints>
+          <grid row="3" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fdbee" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="-u"/>
+        </properties>
+      </component>
+      <component id="82324" class="javax.swing.JCheckBox" binding="cbME">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5dddf" class="javax.swing.JCheckBox" binding="cbWE">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2b845" class="javax.swing.JCheckBox" binding="cbRE">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="50b5f" class="javax.swing.JCheckBox" binding="cbHE">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b2bc7" class="javax.swing.JCheckBox" binding="cbNE">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="73ff8" class="javax.swing.JCheckBox" binding="cbTE">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="57d61" class="javax.swing.JCheckBox" binding="cbSE">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="baef1" class="javax.swing.JCheckBox" binding="cbKE">
         <constraints>
           <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -629,15 +559,32 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="2b9f1" class="javax.swing.JLabel">
+      <component id="6d87a" class="javax.swing.JCheckBox" binding="cbE">
+        <constraints>
+          <grid row="4" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="66b8f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="-e"/>
+        </properties>
+      </component>
+      <component id="d2844" class="javax.swing.JLabel">
         <constraints>
           <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="z-"/>
+          <text value="g-"/>
         </properties>
       </component>
-      <component id="84255" class="javax.swing.JCheckBox" binding="cbZA">
+      <component id="eeaf3" class="javax.swing.JCheckBox" binding="cbGA">
         <constraints>
           <grid row="1" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -646,7 +593,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="ec261" class="javax.swing.JCheckBox" binding="cbZO">
+      <component id="4ffaa" class="javax.swing.JCheckBox" binding="cbGO">
         <constraints>
           <grid row="5" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -655,7 +602,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="1ce1d" class="javax.swing.JCheckBox" binding="cbZI">
+      <component id="14250" class="javax.swing.JCheckBox" binding="cbGI">
         <constraints>
           <grid row="2" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -664,7 +611,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="b8d6e" class="javax.swing.JCheckBox" binding="cbZU">
+      <component id="c3556" class="javax.swing.JCheckBox" binding="cbGU">
         <constraints>
           <grid row="3" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -673,7 +620,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="9100d" class="javax.swing.JCheckBox" binding="cbZE">
+      <component id="41b4f" class="javax.swing.JCheckBox" binding="cbGE">
         <constraints>
           <grid row="4" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -682,15 +629,15 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="31c1b" class="javax.swing.JLabel">
+      <component id="2b9f1" class="javax.swing.JLabel">
         <constraints>
           <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="b-"/>
+          <text value="z-"/>
         </properties>
       </component>
-      <component id="f76fb" class="javax.swing.JCheckBox" binding="cbBA">
+      <component id="84255" class="javax.swing.JCheckBox" binding="cbZA">
         <constraints>
           <grid row="1" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -699,7 +646,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="21a95" class="javax.swing.JCheckBox" binding="cbBO">
+      <component id="ec261" class="javax.swing.JCheckBox" binding="cbZO">
         <constraints>
           <grid row="5" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -708,7 +655,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="9db1c" class="javax.swing.JCheckBox" binding="cbBI">
+      <component id="1ce1d" class="javax.swing.JCheckBox" binding="cbZI">
         <constraints>
           <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -717,7 +664,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="30330" class="javax.swing.JCheckBox" binding="cbBU">
+      <component id="b8d6e" class="javax.swing.JCheckBox" binding="cbZU">
         <constraints>
           <grid row="3" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -726,7 +673,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="4cb1e" class="javax.swing.JCheckBox" binding="cbBE">
+      <component id="9100d" class="javax.swing.JCheckBox" binding="cbZE">
         <constraints>
           <grid row="4" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -735,15 +682,15 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="eea1d" class="javax.swing.JLabel">
+      <component id="31c1b" class="javax.swing.JLabel">
         <constraints>
           <grid row="0" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="d-"/>
+          <text value="b-"/>
         </properties>
       </component>
-      <component id="b5e11" class="javax.swing.JCheckBox" binding="cbDA">
+      <component id="f76fb" class="javax.swing.JCheckBox" binding="cbBA">
         <constraints>
           <grid row="1" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -752,7 +699,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="19379" class="javax.swing.JCheckBox" binding="cbDO">
+      <component id="21a95" class="javax.swing.JCheckBox" binding="cbBO">
         <constraints>
           <grid row="5" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -761,7 +708,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="282a9" class="javax.swing.JCheckBox" binding="cbDI">
+      <component id="9db1c" class="javax.swing.JCheckBox" binding="cbBI">
         <constraints>
           <grid row="2" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -770,7 +717,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="ec483" class="javax.swing.JCheckBox" binding="cbDU">
+      <component id="30330" class="javax.swing.JCheckBox" binding="cbBU">
         <constraints>
           <grid row="3" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -779,7 +726,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="47437" class="javax.swing.JCheckBox" binding="cbDE">
+      <component id="4cb1e" class="javax.swing.JCheckBox" binding="cbBE">
         <constraints>
           <grid row="4" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -788,15 +735,15 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="d9cc" class="javax.swing.JLabel">
+      <component id="eea1d" class="javax.swing.JLabel">
         <constraints>
           <grid row="0" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="p-"/>
+          <text value="d-"/>
         </properties>
       </component>
-      <component id="741f0" class="javax.swing.JCheckBox" binding="cbPA">
+      <component id="b5e11" class="javax.swing.JCheckBox" binding="cbDA">
         <constraints>
           <grid row="1" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -805,7 +752,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="2567c" class="javax.swing.JCheckBox" binding="cbPO">
+      <component id="19379" class="javax.swing.JCheckBox" binding="cbDO">
         <constraints>
           <grid row="5" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -814,7 +761,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="79173" class="javax.swing.JCheckBox" binding="cbPI">
+      <component id="282a9" class="javax.swing.JCheckBox" binding="cbDI">
         <constraints>
           <grid row="2" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -823,7 +770,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="90c4b" class="javax.swing.JCheckBox" binding="cbPU">
+      <component id="ec483" class="javax.swing.JCheckBox" binding="cbDU">
         <constraints>
           <grid row="3" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -832,9 +779,62 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="e2ab1" class="javax.swing.JCheckBox" binding="cbPE">
+      <component id="47437" class="javax.swing.JCheckBox" binding="cbDE">
         <constraints>
           <grid row="4" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d9cc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="p-"/>
+        </properties>
+      </component>
+      <component id="741f0" class="javax.swing.JCheckBox" binding="cbPA">
+        <constraints>
+          <grid row="1" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2567c" class="javax.swing.JCheckBox" binding="cbPO">
+        <constraints>
+          <grid row="5" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="79173" class="javax.swing.JCheckBox" binding="cbPI">
+        <constraints>
+          <grid row="2" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="90c4b" class="javax.swing.JCheckBox" binding="cbPU">
+        <constraints>
+          <grid row="3" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e2ab1" class="javax.swing.JCheckBox" binding="cbPE">
+        <constraints>
+          <grid row="4" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <selected value="true"/>
@@ -844,7 +844,7 @@
       <grid id="8681a" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="6" column="17" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="18" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties/>
         <border type="none"/>
@@ -877,6 +877,23 @@
           </hspacer>
         </children>
       </grid>
+      <component id="fbf17" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="v"/>
+        </properties>
+      </component>
+      <component id="247ae" class="javax.swing.JCheckBox" binding="cbVU">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

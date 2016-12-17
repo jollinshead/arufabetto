@@ -124,7 +124,7 @@ public class JCLetterList {
         masterListOfLetters.add(new JCLetter( "WE", "ゑ", "ヱ", mainForm.getAfAlphabet().getCbWE(), "we.wav"));
         masterListOfLetters.add(new JCLetter( "WO", "を", "ヲ", mainForm.getAfAlphabet().getCbWO(), "wo.wav"));
         masterListOfLetters.add(new JCLetter( "N", "ん", "ン", mainForm.getAfAlphabet().getCbN(), "n.wav"));
-        //masterListOfLetters.add(new JCLetter( "VU", "ゔ", "ヴ", mainForm.getAfAlphabet().getCbVU(), "vu.wav"));
+        masterListOfLetters.add(new JCLetter( "VU", "ゔ", "ヴ", mainForm.getAfAlphabet().getCbVU(), "vu.wav"));
     }
 
 

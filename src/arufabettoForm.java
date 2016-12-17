@@ -14,7 +14,7 @@ public class arufabettoForm {
     public arufabettoForm() {
 
         btnSave.addActionListener(e -> {
-            boolean[] ticks = new boolean[73];
+            boolean[] ticks = new boolean[74];
             ticks[0] = cbMA.isSelected();
             ticks[1] = cbN.isSelected();
             ticks[2] = cbWA.isSelected();
@@ -88,6 +88,7 @@ public class arufabettoForm {
             ticks[70] = cbBO.isSelected();
             ticks[71] = cbDO.isSelected();
             ticks[72] = cbPO.isSelected();
+            ticks[73] = cbVU.isSelected();
 
             try {
                 FileOutputStream stream = new FileOutputStream(new File("config.dat"));
@@ -109,11 +110,11 @@ public class arufabettoForm {
                 FileInputStream inputStream = new FileInputStream(file);
 
                 int fileLength = (int) file.length();
-                if (fileLength != 73)
+                if (fileLength != 74)
                     throw new Exception();
 
                 byte[] data = new byte[fileLength];
-                boolean[] ticks = new boolean[73];
+                boolean[] ticks = new boolean[74];
 
                 inputStream.read(data);
                 for (int X = 0; X < data.length; X++) {
@@ -196,6 +197,7 @@ public class arufabettoForm {
                 cbBO.setSelected(ticks[70]);
                 cbDO.setSelected(ticks[71]);
                 cbPO.setSelected(ticks[72]);
+                cbVU.setSelected(ticks[73]);
 
             }
             catch (Exception ex) {
@@ -280,6 +282,7 @@ public class arufabettoForm {
     private JCheckBox cbPO;
     private JButton btnSave;
     private JButton btnLoad;
+    private JCheckBox cbVU;
 
     public JCheckBox getCbMA() {
         return cbMA;
@@ -571,5 +574,9 @@ public class arufabettoForm {
 
     public JCheckBox getCbPO() {
         return cbPO;
+    }
+
+    public JCheckBox getCbVU() {
+        return cbVU;
     }
 }
